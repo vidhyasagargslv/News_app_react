@@ -13,7 +13,7 @@
 }
 .box:hover{
     opacity: 1;
-    transition: 0.8s;
+    transition: 0.5s;
     cursor: pointer;
     scale: 1.05;
 }

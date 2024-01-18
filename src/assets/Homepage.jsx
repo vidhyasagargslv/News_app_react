@@ -33,7 +33,7 @@ export default function Homepage() {
         </nav>
 
         <div className="app-heading text-center text-4xl font-bold my-6">
-    Latest News
+        Your Source for Breaking News and Updates
         </div> <br />
 
 
