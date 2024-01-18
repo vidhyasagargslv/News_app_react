@@ -8,11 +8,11 @@ export default function Homepage() {
 
     const [Articles, setArticles] = useState([]);
 
-    const date = new Date();
-    date.setDate(date.getDate() - 30);
-    const fromDate = date.toISOString().split('T')[0];
-    
-    const apiurl=`https://newsapi.org/v2/everything?q=tesla&from=${fromDate}&sortBy=publishedAt&apiKey=0d2e831c03224c2b8d2ae6943047a474`
+const date = new Date();
+date.setDate(date.getDate() - 30);
+const fromDate = date.toISOString().split('T')[0];
+
+const apiurl=`https://newsapi.org/v2/everything?q=tesla&from=${fromDate}&sortBy=publishedAt&apiKey=0d2e831c03224c2b8d2ae6943047a474`
     useEffect(() => {
         const fetchArticles = async () => {
           try {
